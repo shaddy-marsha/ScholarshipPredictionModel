@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import os
 
 # Load the model
-model_path = os.path.join(os.path.dirname(__file__), '../Models/scholarship_award_decision.h5')
+model_path = os.path.join(os.path.dirname(__file__), '../Models/scholarship_award_decision_using_deep_learnin.py')
 model = load_model(model_path)
 
 # Streamlit UI to input data for prediction
